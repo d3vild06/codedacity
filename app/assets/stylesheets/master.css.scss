@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Sonsie+One);
 
+body {
+  background: url('sos.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
 .navbar-default{
   border-radius: 0;
   font-family: "Helvetica Neue", Helvetica;
@@ -15,7 +20,7 @@
 }
 
 .hero {
-  background: url('hero.jpg') no-repeat center center fixed;
+  background: url('mac_book.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -29,7 +34,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .frosty {
-  background:rgba(0,0,0, 0.5);
+  background:rgba(0,0,0, 0.4);
   color:white;
 }
 .frosty h1 {
