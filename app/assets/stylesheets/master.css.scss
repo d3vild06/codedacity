@@ -1,19 +1,49 @@
 @import url(https://fonts.googleapis.com/css?family=Sonsie+One);
 
-html, body{
-    margin:0px;
-    padding:0px;
-}
 .navbar-default{
   border-radius: 0;
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
   box-shadow: 0px 1px 3px 0px rgba(48,51,56,1);
   margin-bottom: 0;
-  background: url('brushed_@2X.png');
+  background: url('subtle_carbon_@2X.png');
   border: 0px;
 }
 .navbar-default .navbar-brand {
   font-family: 'Sonsie One', cursive;
-  color: #FF7400;
+  color: #38E126;
+}
+
+.hero {
+  background: url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 370px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin:0;
+}
+
+.frosty {
+  background:rgba(0,0,0, 0.5);
+  color:white;
+}
+.frosty h1 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.btn {
+  border-radius:0;
 }
